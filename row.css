@@ -1,0 +1,11 @@
+.fxs_event-row {
+    font-size: 12px;
+    grid-template-columns: 55px 20px 40px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "tradeable currency-flag currency-value title        title        title           title           title           title          title          title" "time      .             actual-label   actual-label actual-label consensus-label consensus-label consensus-label previous-label previous-label previous-label" "impact    .             actual-value   actual-value actual-value consensus-value consensus-value consensus-value previous-value previous-value previous-value";
+}
+
+.fxs_event-row .deviation-value,
+.fxs_event-row .dashboard,
+.fxs_event-row .expandable {
+    display: none;
+}

@@ -1,0 +1,112 @@
+.fxs_event-row {
+    display: grid;
+    display: -ms-grid;
+}
+
+.fxs_event-row span {
+    text-align: center;
+    line-height: 40px;
+    white-space: nowrap;
+}
+
+.fxs_event-row .tradeable {
+    grid-area: tradeable;
+}
+
+.fxs_event-row .time {
+    grid-area: time;
+    font-weight: bold;
+}
+
+.fxs_event-row .impact {
+    grid-area: impact;
+}
+
+.fxs_event-row .impact span {
+    width: 10px;
+    height: 10px;
+    display: block;
+    background-color: #DDDEDF;
+    border: 1px solid #DDDEDF;
+    margin: auto;
+}
+
+.fxs_event-row .impact.high span {
+    background-color: #D25746;
+}
+
+.fxs_event-row .impact.medium span:nth-child(2),
+.fxs_event-row .impact.medium span:nth-child(3) {
+    background-color: #E4871B;
+}
+
+.fxs_event-row .impact.low span:last-child {
+    background-color: #F5C861;
+}
+
+.fxs_event-row .currency-flag {
+    grid-area: currency-flag;
+    margin-top: 13px;
+}
+
+.fxs_event-row .currency-value {
+    grid-area: currency-value;
+    font-weight: bold;
+    text-align: left;
+}
+
+.fxs_event-row .title {
+    grid-area: title;
+    text-align: left;
+    font-weight: bold;
+    white-space: normal;
+}
+
+.fxs_event-row .actual-label {
+    grid-area: actual-label;
+    font-weight: 300;
+}
+
+.fxs_event-row .actual-value {
+    grid-area: actual-value;
+    font-weight: bold;
+}
+
+.fxs_event-row .deviation-value {
+    grid-area: deviation-value;
+    font-weight: bold;
+}
+
+.fxs_event-row .consensus-label {
+    grid-area: consensus-label;
+    font-weight: 300;
+}
+
+.fxs_event-row .consensus-value {
+    grid-area: consensus-value;
+    font-weight: bold;
+}
+
+.fxs_event-row .previous-label {
+    grid-area: previous-label;
+    font-weight: 300;
+}
+
+.fxs_event-row .previous-value {
+    grid-area: previous-value;
+    font-weight: bold;
+}
+
+.fxs_event-row .dashboard {
+    grid-area: dashboard;
+    font-size: 24px;
+    margin-top: 8px;
+}
+
+.fxs_event-row .dashboard:hover {
+    color: #e4871b;
+}
+
+.fxs_event-row .expandable {
+    grid-area: expandable;
+}

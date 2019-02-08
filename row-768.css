@@ -1,0 +1,16 @@
+@media(min-width:768px) {
+    .fxs_event-row {
+        grid-template-columns: 40px 40px 20px 20px 40px 1fr 90px 90px 40px 30px;
+        grid-template-areas: "tradeable time impact currency-flag currency-value title actual-value consensus-value dashboard expandable";
+    }
+    .fxs_event-row .consensus-label,
+    .fxs_event-row .actual-label,
+    .fxs_event-row .previous-label,
+    .fxs_event-row .previous-value {
+        display: none;
+    }
+    .fxs_event-row .expandable,
+    .fxs_event-row .dashboard {
+        display: block;
+    }
+}
